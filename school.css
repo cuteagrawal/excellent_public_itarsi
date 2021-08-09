@@ -1,0 +1,493 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* main codes start here*/
+
+.main_image{
+    width: 100%;
+    height:130px;
+    background-color: pink;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-image: url("image_one.jpg");
+}
+
+/* content */
+
+.main_content{
+    width: 100%;
+    height: 600px;
+    /* background-color: #eddcd2; */
+    /* background-color: #b6ccfe; */
+    background-color: #edf6f9;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left_content{
+    width: 38%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right_content{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#quote_main{
+    font-family: 'Caveat', cursive;
+    font-size: 43px;
+}
+.title_line{
+    width: 100%;
+    height: 100px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.extras_main{
+    width: 100%;
+    height: 300px;
+    /* background-color: wheat; */
+    display: flex;
+    
+}
+.why_us{
+    width: 65%;
+    height: 100%;
+    background-color: #9f86c0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#why_us_text1{
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+#why_us_text2{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+.quick_links{
+    width: 35%;
+    height: 100%;
+    font-size: 20px;
+    background-color: pink;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* principal */
+
+.principal{
+    width: 100%;
+    height: 500px;
+    /* background-color: antiquewhite; */
+    background-color: #d7e3fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.principal_talk{
+    width: 80%;
+    height: 400px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.principal_photo{
+    width: 120px;
+    height: 150px;
+}
+.principal_text{
+    width: 60%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+#credit-P{
+    font-style: italic;
+    font-weight: 100;
+}
+
+/*feature bar*/
+
+.feature_bar{
+    width: 100%;
+    height: 40px;
+    /* background-color: goldenrod; */
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+}
+.feature_bar_one{
+    width: 50%;
+    height: 100px;
+    background-color: red;
+    margin-top: -110px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.feature_element{
+    display: flex;
+    width: 24%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.feature_icons{
+    width: 50px;
+    height: 50px;
+}
+.feature_text{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.cross{
+    width: 4%;
+    background-color: white;
+}
+.cross_line{
+    width: 0;
+    height: 0;
+    border-left: 0px solid red;
+    border-right: 2vw solid transparent;
+    border-top: 100px solid red;
+}
+.white_bg_feature{
+    background-color: white;
+}
+
+/* school_features */
+
+.school_features{
+    width: 100%;
+    height: 500px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.feature_col{
+    width: 25%;
+    height: 420px;
+    border-radius: 2px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img_features{
+    width: 70%;
+}
+.facility_text{
+    height: 50%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*teacher photos*/
+
+.teacher{
+    width: 100%;
+    height: 600px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main_row{
+    width: 60%;
+    height: 250px;
+    /* background-color: red; */
+    display: flex;
+}
+.sub_row{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.teacher_photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.teacher_img{
+    width: 120px;
+    height: 150px;
+}
+.teacher_name{
+    display: flex;
+    justify-content: center;
+    text-decoration: solid underline;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+.teacher_post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Location */
+#Location {
+	background-color: #edf6f9;
+	/* height: 80vh; */
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.google_location {
+	width: 50rem;
+}
+
+.address {
+	width: 33rem;
+}
+
+
+/*footer*/
+
+/* .footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+} */
+#footer {
+	width: 100%;
+	background-color: grey;
+	display: flex;
+	color: black;
+}
+
+#footer .flex {
+	display: flex;
+	width: -webkit-fill-available;
+	width: -moz-available;
+}
+
+.footer_border {
+    border-right: 1px white dashed;
+}
+
+.footer_contact, .quick_link, .cuconut {
+	width: -webkit-fill-available;
+	width: -moz-available;
+	padding: 5%;
+}
+
+.quick_link a, .cuconut a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.cuconut img {
+	width: 70%;
+}
+
+/* .cuconut p {
+	color: bisque;
+} */
+.bold {
+	font-size: larger;
+	font-weight: 800;
+}
+
+/* media queries */
+
+@media (max-width:700px) {
+    .main_content{
+        flex-direction: column;
+        height: 1000px;
+    }
+    .left_content, .right_content{
+        width: 90%;
+    }
+    .right_content{
+        height:700px;
+    }
+    .extras_main{
+        height: 500px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: blue;
+    }
+    #quote_main{
+        font-family: 'Caveat', cursive;
+        font-size: 30px;
+    }
+    .why_us{
+        height: 300px;
+        width: 100%;
+    }
+    .quick_links{
+        height: 200px;
+        width: 100%;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+
+    /*principal*/
+
+    .principal{
+        height: 800px;
+    }
+    .principal_talk{
+        width: 90%;
+        height: 700px;
+        flex-direction: column;
+    }
+    .principal_text{
+        width: 90%;
+    }
+
+    /*feature bar*/
+
+    .feature_bar{
+        height: 340px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .feature_bar_one{
+        margin: 0px;
+        width: 90%;
+        height: 300px;
+        flex-direction: column;
+    }
+    .cross{
+        display: none;
+    }
+    .feature_element{
+        width: 100%;
+        height: 25%;
+    }
+    .feature_icons{
+        width: 50px;
+        height: 50px;
+    }
+
+    /*school facilities*/
+
+    .school_features{
+        flex-direction: column;
+        height: 1300px;
+    }
+    .feature_col{
+        width: 90%;
+        height: 400px;
+    }
+    
+    /*staff photos*/
+
+    .teacher{
+        height: 1100px;
+    }
+    .main_row{
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .sub_row{
+        width: 85%;
+    }
+    /* location */
+    .google_location {
+		width: 90%;
+	}
+	.address {
+		width: 90%;
+	}
+
+    /* footer */
+    #footer {
+		flex-direction: column;
+		align-items: end;
+	}
+	#footer div {
+		width: auto;
+		border: none;
+		margin: 2%;
+	}
+    .cuconut img {
+        width: 90%;
+    }
+}
+@media (max-width:320px){
+    .left_content, .right_content{
+        width: 90%;
+    }
+}
