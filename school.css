@@ -409,6 +409,9 @@ table {
         height: 180px;
         background-image: url("school_pics/school3.jpg");
     }
+    #heading{
+        font-size: 1rem;
+    }
     .main_content{
         flex-direction: column;
         height: 1000px;
