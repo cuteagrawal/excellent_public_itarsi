@@ -218,7 +218,9 @@ table {
 .white_bg_feature{
     background-color: white;
 }
-
+.bold{
+    margin-bottom: 5%;
+}
 /* school_features */
 
 .school_features{
@@ -240,7 +242,7 @@ table {
     align-items: center;
 }
 .img_features{
-    width: 70%;
+    width: 100%;
 }
 .facility_text{
     height: 50%;
@@ -300,6 +302,24 @@ table {
     justify-content: center;
     align-items: center;
     font-family: 'Nunito', sans-serif;
+}
+
+/* Gallery */
+#gallery{
+    background-color: #9f86c0;
+    /* height: 40vh; */
+    text-align: center;
+    padding: 2%;
+    /* width: 1; */
+    /* display: block; */
+}
+.gallery_img{
+    width: 30%;
+    padding: 1%;
+    /* margin: 2%; */
+}
+#gallery .carousel-control-prev, #gallery .carousel-control-next{
+    width: auto;
 }
 
 /* Location */
@@ -473,6 +493,11 @@ table {
     .sub_row{
         width: 85%;
     }
+    /* Gallery */
+    .gallery_img{
+        width: 100%;
+    }
+
     /* location */
     .google_location {
 		width: 90%;
