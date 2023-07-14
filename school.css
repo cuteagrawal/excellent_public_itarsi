@@ -47,7 +47,6 @@ table {
 .main_image{
     width: 100%;
     height:190px;
-    background-color: pink;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -69,7 +68,7 @@ table {
     height: 600px;
     /* background-color: #eddcd2; */
     /* background-color: #b6ccfe; */
-    background-color: #edf6f9;
+    background-color: #AFD3E2;
 
     display: flex;
     justify-content: space-evenly;
@@ -106,12 +105,12 @@ table {
     height: 300px;
     /* background-color: wheat; */
     display: flex;
-    
 }
 .why_us{
     width: 65%;
     height: 100%;
-    background-color: #9f86c0;
+    background-color: #146C94;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,7 +131,7 @@ table {
     width: 35%;
     height: 100%;
     font-size: 20px;
-    background-color: pink;
+    background-color: #F6F1F1;
     font-family: 'Nunito', sans-serif;
     display: flex;
     flex-direction: column;
@@ -146,7 +145,7 @@ table {
     width: 100%;
     height: 500px;
     /* background-color: antiquewhite; */
-    background-color: #d7e3fc;
+    background-color: #AFD3E2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,10 +153,11 @@ table {
 .principal_talk{
     width: 80%;
     height: 400px;
-    background-color: burlywood;
+    background-color: #146C94;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    color: white;
 }
 .principal_photo{
     width: 120px;
@@ -179,21 +179,23 @@ table {
     width: 100%;
     height: 40px;
     /* background-color: goldenrod; */
-    background-color: skyblue;
+    background-color: #19A7CE;
     display: flex;
     justify-content: center;
 }
 .feature_bar_one{
     width: 50%;
     height: 100px;
-    background-color: red;
+    background-color: #19A7CE;
     margin-top: -110px;
     display: flex;
     justify-content: space-evenly;
+    border: 1px solid black;
+    border-radius: 50px;
 }
 .feature_element{
     display: flex;
-    width: 24%;
+    width: -webkit-fill-available;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -209,17 +211,18 @@ table {
 }
 .cross{
     width: 4%;
-    background-color: white;
+    background-color: #F6F1F1;
 }
 .cross_line{
     width: 0;
     height: 0;
-    border-left: 0px solid red;
+    border-left: 0px solid #19A7CE;
     border-right: 2vw solid transparent;
-    border-top: 100px solid red;
+    border-top: 100px solid #19A7CE;
 }
-.white_bg_feature{
-    background-color: white;
+.bg_feature{
+    background-color: #F6F1F1;
+    border-radius: 0 50px 50px 0;
 }
 .bold{
     margin-bottom: 5%;
@@ -229,7 +232,7 @@ table {
 .school_features{
     width: 100%;
     height: 500px;
-    background-color: skyblue;
+    background-color: #19A7CE;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -238,11 +241,12 @@ table {
     width: 25%;
     height: 420px;
     border-radius: 2px;
-    background-color: blanchedalmond;
+    background-color: #146C94;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    color: white;
 }
 .img_features{
     width: 100%;
@@ -262,7 +266,7 @@ table {
 .teacher{
     width: 100%;
     height: 360px;
-    background-color: grey;
+    background-color: #19A7CE;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -308,11 +312,11 @@ table {
 }
 
 /* Gallery */
-#gallery{
-    background-color: #9f86c0;
+#gallery,#video{
+    background-color: #AFD3E2;
     /* height: 40vh; */
     text-align: center;
-    padding: 2%;
+    padding: 1% 2%;
     /* width: 1; */
     /* display: block; */
 }
@@ -324,12 +328,19 @@ table {
 #gallery .carousel-control-prev, #gallery .carousel-control-next{
     width: auto;
 }
+#video .heading{
+    padding: 10px 0;
+}
+#video{
+    background-color: #19A7CE;
+}
 
 /* Location */
 #Location {
-	background-color: #edf6f9;
+	background-color: #AFD3E2;
 	/* height: 80vh; */
 	display: flex;
+    padding: 20px 0;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-evenly;
@@ -348,6 +359,7 @@ table {
 
 .facebook_post{
     display: flex;
+    background-color: #AFD3E2;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
@@ -364,9 +376,9 @@ table {
 } */
 #footer {
 	width: 100%;
-	background-color: grey;
+	background-color: #146C94;
 	display: flex;
-	color: black;
+	color: white;
 }
 
 #footer .flex {
@@ -471,19 +483,22 @@ table {
         width: 90%;
         height: 300px;
         flex-direction: column;
+        justify-content: space-between;
     }
     .cross{
         display: none;
     }
     .feature_element{
         width: 100%;
-        height: 25%;
+        height: 50%;
     }
     .feature_icons{
         width: 50px;
         height: 50px;
     }
-
+    .bg_feature{
+        border-radius: 0 0 50px 50px;
+    }
     /*school facilities*/
 
     .school_features{
